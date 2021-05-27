@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+    <title>Log In Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="page-container">
+     <form class="main" name="form">
+     <div class="container">
+      <h1><b>Log In</b></h1><br>
+      <p>Please fill in this form to Log In to Your Account.</p>
+      <hr>
+
+      <!-- <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" class="input" id="username" required> -->
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter your Email"  class="input" id="email" name="email" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="text" placeholder="Enter Password" name="password" class="input visibility" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      <input type="checkbox" class="visibility2" onclick="visibility()"><span class="span">hide password</span><br>
+
+      <!-- <label for="phonenumber"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phonenumber" class="input" id="phonenumber"  title="Enter 10 digit phone number" required> -->
+
+      <label><input type="checkbox" checked="checked" name="remember" id="checkbox"> Remember me</label><br>
+
+     <button id="button" type="button">Log In</button>
+
+    </div>
+
+  </form>
+
+  <div id="message" >
+    <h3>Password must contain the following:</h3>
+    <p id="letter" class="invalid">A <b>small</b> letter</p>
+    <p id="capital" class="invalid">A <b>capital</b> letter</p>
+    <p id="number" class="invalid">A <b>number</b></p>
+    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  </div>
+
+</div>
+
+ <script src="login.js"></script>
+
+ </body>
+
+</html>

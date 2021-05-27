@@ -1,0 +1,50 @@
+
+  .div4{
+
+  margin-left: 50px;
+
+}
+  .item1-image  img{
+
+  margin:50px 10px 10px 50px;
+  width:285px;
+  height:285px;
+  padding-top:40px;
+
+}
+
+.item1-content {
+
+  /* margin-left:50px; */
+  padding-bottom:60px;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+    /* color: #009879; */
+}
+.span2{
+
+  font-size:15px;
+  position:relative;
+  top:-2px;
+  font-weight: normal;
+
+}
+
+.items-float{
+
+float:left;
+
+}
+ button{
+
+background-color: #009879;
+color: white;
+height:40px;
+border: none;
+}
+button:hover{
+  background-color: #00cc44;
+}

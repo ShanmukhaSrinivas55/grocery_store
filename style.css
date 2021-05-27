@@ -1,0 +1,170 @@
+*{
+
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+}
+body {
+
+font-family:"Lucida sans",Helvetica, sans-serif;
+
+}
+
+.page-container{
+
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+overflow:auto;
+background-color:#F8F8F8;
+
+}
+.container{
+
+padding:35px 35px;
+
+}
+.main{
+
+margin: 6% auto 15% auto;
+width: 30%;
+background-color:#FFFFFF;
+border-radius: 10px;
+
+}
+
+hr{
+
+margin:20px 0 20px 0;
+
+}
+.input{
+
+display:block;
+width: 100%;
+padding: 15px;
+margin: 5px 0 25px 0;
+border: none;
+background: #f1f1f1;
+
+}
+
+.input:focus{
+
+ background-color: #ddd;
+  outline: none;
+}
+
+#checkbox{
+
+margin-bottom:15px;
+
+}
+button{
+
+background-color: #6EABE4;
+color: white;
+padding: 14px 25px;
+border: none;
+position:relative;
+left:100px;
+top:12px;
+
+}
+
+.visibility{
+
+margin-bottom:5px ;
+
+}
+.visibility2{
+
+margin-bottom:25px ;
+margin-top:5px;
+
+}
+
+.span{
+
+font-size:12px;
+position:relative;
+top:-2px;
+
+}
+#message {
+
+display:none;
+background:#FFFFFF ;
+color: #000;
+width:170px;
+height:140px;
+position: relative;
+top:-590px;
+left:1000px;
+padding: 10px;
+
+}
+
+#message p {
+
+padding: 4px 15px;
+font-size: 10px;
+
+}
+
+h3{
+
+font-size:12px;
+
+}
+
+
+.valid {
+
+color: green;
+
+}
+
+.valid:before {
+
+position: relative;
+left: -15px;
+content: "✔";
+
+}
+
+.invalid {
+
+color: red;
+
+}
+
+.invalid:before {
+
+position: relative;
+left: -15px;
+content: "✖";
+
+}
+
+@media screen and (max-width: 500px){
+
+.main{
+
+width:90%;
+margin:10%;
+position:absolute;
+left:-20px;
+
+}
+button{
+
+position:relative;
+left:70px;
+
+}
+
+}
